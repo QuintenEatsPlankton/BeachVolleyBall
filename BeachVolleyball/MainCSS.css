@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+
+h3 {
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	font-size: 150%;
+	text-align: left;
+	text-decoration: underline;
+}
