@@ -3,18 +3,35 @@
 
 /*Background*/
 body{
-	background:#ffffff url(images/vector_volleyball.jpg) no-repeat right top;
+	background:#ffffff;
 	margin-right:200px;
+	background-color:#97DDFF
+	
 
 }
-
-
+/* Images*/
+img{
+	border-radius: 8px;
+	
+	
+	
+}
 /*Text styling*/
+h1{
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	font-size: 200%;
+	text-align: center;
+	text-decoration: underline;
+	
+}
+
 h2 {
 	font-style: normal;
 	font-variant: normal;
 	font-weight: bold;
-	font-size: 150%;
+	font-size: 200%;
 	text-align: center;
 	text-decoration: underline;
 }
@@ -22,31 +39,59 @@ h2 {
 p{
 	font-style: normal;
 	font-variant: normal;
-	font-size: 100%;
+	font-size: 125%;
 	text-align: justify;
 	text-align:center;
-	
-	}
-div{
-	background-color:lightgrey;
+	background-color:lightgray;
 	width:75%;
-	border:15px solid #0005ff;
-	padding: 15px;
-	margin: 15px;
+	border:5px solid #3399ff;
+	border-radius:5px;
+	padding:7px;
+	margin:7px;
+	textalign: center;
+	paragraph-align:center;
+	
 }
 	
 /*links styling*/
 a:link, a:visited {
 	
-	background-color: #0005FF;
+	font-size:125%;
+	background-color: #3399ff;
 	color: white;
-	padding: 14px 25px;
+	padding: 5px 10px;
 	text-align:centre;
 	text-decoration: none;
 	display: inline block;
+	border-radius: 5px;
+	border: 2px solid #000000;
 }
 a:hover, a:active{
 	background-color: #4985FF;
 		
 
 }
+
+input[type=text], select{
+	width:100%;
+	padding:12px, 20px;
+	margin:8px 0;
+	display:inline-block;
+	border 1px solid #ccc;
+	border-radius:4px;
+	box-sizing: border-box;
+	
+}
+input[type=submit]:hover{
+	background-color:##3399ff;
+}
+
+
+div{
+	border-radius:5px;
+	background-color:#f2f2f2;
+	padding:20px;
+}
+
+
+
