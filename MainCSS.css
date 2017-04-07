@@ -72,18 +72,26 @@ a:hover, a:active{
 
 }
 
-input[type=text], select{
-	width:100%;
-	padding:12px, 20px;
-	margin:8px 0;
-	display:inline-block;
-	border 1px solid #ccc;
-	border-radius:4px;
-	box-sizing: border-box;
+input[type=text]{
+	font-size:125%;
+	background-color: lightgray;
+	padding:5px 10px;
+	border-radius: 5px;
+	border:2px solid #000000 ;
+	width: 30%;
 	
+		
 }
-input[type=submit]:hover{
-	background-color:##3399ff;
+input[type=reset]{
+	font-size:125%;
+	background-color: #3399ff;
+	color: white;
+	padding: 5px 10px;
+	text-align:centre;
+	text-decoration: none;
+	display: inline block;
+	border-radius: 5px;
+	border: 2px solid #000000;
 }
 
 
@@ -92,6 +100,41 @@ div{
 	background-color:#f2f2f2;
 	padding:20px;
 }
+select{
+	font-size:125%;
+	background-color: lightgray;
+	padding:5px 10px;
+	border-radius: 5px;
+	border:2px solid #000000 ;
+	width: 30%
+	
+}
+input[type=radio]{
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	font-size: 200%;
+	text-align: center;
+	text-decoration: underline;
+	
+	
+}
+/*table styling */
+table{
+	font-familty:arial, sans-serif;
+	border-collapse:collapse;
+	width: 100%;
+	background-color: lightgray
+}
 
+td, th{
+	border:2px solid #000000;
+	text-align: left;
+	padding:8px;
+}
 
+tr:hover{
+	background-color :#f5f5f5
+		
+}
 
